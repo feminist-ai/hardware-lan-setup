@@ -103,3 +103,14 @@ your power supply came with a bunch of funky looking cables so that everything i
 -> sharing model and data files locally
 -> communal training
 
+
+------
+
+Software setup
+
+- shared file server
+- shared psql or other reachable database
+--> note wrt psql clients that some will not play nice with local connections
+- vllm serving for llms
+- comfyui + flux or other models via docker for image gen
+
